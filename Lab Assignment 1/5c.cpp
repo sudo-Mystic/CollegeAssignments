@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 float fTok(float t){
-	return 1.8*(t-273.15)+ 32;
+	return (t-32)/1.8 + 273.15;
 }
 int main(){
 	float t;
